@@ -1,0 +1,175 @@
+.topColumn {
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    padding: 2px;
+}
+
+.modal p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+}
+
+.modal2 p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+}
+
+.modal3 p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+}
+
+.modal4 p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+}
+
+button {
+    display: none;
+    position: absolute;
+}
+
+#yesButton {
+    left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#noButton {
+    right: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.yellowCoin img {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.redCoin img {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.arrow img {
+    display: none;
+    width: 80px;
+    position: fixed;
+    left: 41vh;
+    top: 7vh;
+}
+
+.player1 {
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    left: 130px;
+    top: 40px;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.player2 {
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    right: 150px;
+    top: 40px;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: right;
+}
+
+.myButton {
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    background-color: #ffec64;
+    border-radius: 26px;
+    border: 1px solid #ffaa22;
+    display: block;
+    cursor: pointer;
+    color: #333333;
+    font-family: Trebuchet MS;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px 46px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffee66;
+    position: fixed;
+    left: 73vh;
+    top: 5vh;
+}
+
+.myButton:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+    background: -moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background: -webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background: -o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background: -ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64', GradientType=0);
+    background-color: #ffab23;
+}
+
+.board {
+    height: 600px;
+    width: 700px;
+    position: fixed;
+    left: 40vh;
+    top: 20vh;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    box-shadow: -10px -10px 10px #D3D3D3;
+}
+
+.column {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    height: 600px;
+    width: 100px;
+    left: 40vh;
+    top: 20vh;
+}
+
+.slot {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    padding: 10px;
+}
+
+.slot div {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 90%;
+    box-shadow: inset -2px -2px 10px black;
+}
+
+.tokenRed div {
+    background-color: red;
+    transition: 1s;
+}
+
+.tokenYellow div {
+    background-color: yellow;
+    transition: 1s;
+}
