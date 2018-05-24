@@ -70,7 +70,7 @@ button {
     display: none;
     width: 80px;
     position: fixed;
-    left: 41vh;
+    left: 31vw;
     top: 7vh;
 }
 
@@ -113,7 +113,7 @@ button {
     text-decoration: none;
     text-shadow: 0px 1px 0px #ffee66;
     position: fixed;
-    left: 73vh;
+    left: 44vw;
     top: 5vh;
 }
 
@@ -132,7 +132,7 @@ button {
     height: 600px;
     width: 700px;
     position: fixed;
-    left: 40vh;
+    left: 30vw;
     top: 20vh;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
